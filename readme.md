@@ -10,7 +10,7 @@ This Streamlit web application allows you to extract the transcript from a YouTu
 
 ## Screenshots
 
-![Screenshot of the application](screenshot.png)
+![Screenshot of the application](https://raw.githubusercontent.com/Debojit-mitra/Youtube-Summary-using-Transformers/main/Screenshot.png)
 
 ## Libraries Used
 
