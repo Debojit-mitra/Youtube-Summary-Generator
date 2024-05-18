@@ -12,13 +12,6 @@ This Streamlit web application allows you to extract the transcript from a YouTu
 
 ![Screenshot of the application](https://raw.githubusercontent.com/Debojit-mitra/Youtube-Summary-using-Transformers/main/Screenshot.png)
 
-## Libraries Used
-
-- **Streamlit:** Streamlit is used for building and deploying interactive web applications with Python.
-- **pytube:** pytube is a library for downloading YouTube videos.
-- **Whisper:** Whisper is used for audio transcription.
-- **transformers:** The transformers library from Hugging Face is used for natural language processing tasks such as summarization and question answering.
-
 ## Usage
 
 1. **Enter YouTube Video URL:** Paste the URL of the YouTube video you want to analyze.
@@ -57,6 +50,13 @@ To run this application locally, follow these steps:
 - **Transcription Model:** This application uses the `Whisper` library for audio transcription. The model employed is the "base" model provided by Whisper.
 - **Summarization Model:** The summarization functionality utilizes the `Facebook BART (BART-large-CNN)` model from Hugging Face Transformers. It generates concise summaries of the video transcript.
 - **Question Answering Model:** For answering user questions about the video content, the application utilizes the `deepset Roberta-based SQuAD2` model from Hugging Face Transformers.
+
+## Libraries Used
+
+- **Streamlit:** Streamlit is used for building and deploying interactive web applications with Python.
+- **pytube:** pytube is a library for downloading YouTube videos.
+- **Whisper:** Whisper is used for audio transcription.
+- **transformers:** The transformers library from Hugging Face is used for natural language processing tasks such as summarization and question answering.
 
 ## Code Overview
 
