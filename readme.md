@@ -45,6 +45,9 @@ To run this application locally, follow these steps:
    streamlit run your_app_name.py
    ```
 
+> [!NOTE]  
+Downloading and using the models in this application will require a good internet connection as the models will be fetched and stored locally. Please ensure you have a stable internet connection and sufficient disk space available before running the application.
+
 ## Models Used:
 
 - **Transcription Model:** This application uses the `Whisper` library for audio transcription. The model employed is the "base" model provided by Whisper.
@@ -64,7 +67,3 @@ To run this application locally, follow these steps:
 - **Transcription:** Audio transcription is performed using the Whisper library. The generated transcript is then chunked into smaller segments.
 - **Summarization:** The application utilizes the Hugging Face `transformers` library to summarize the transcript chunks using the BART model.
 - **Question Answering:** User questions are answered based on the generated transcript using the `Roberta-based SQuAD2` model.
-
-## ⚠️ Warning
-
-Downloading and using the models in this application will require a good internet connection as the models will be fetched and stored locally. Please ensure you have a stable internet connection and sufficient disk space available before running the application.
